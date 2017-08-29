@@ -1,0 +1,6 @@
+{
+  "weatherDS": {
+    "name": "weatherDS",
+    "connector": "memory"
+  }
+}

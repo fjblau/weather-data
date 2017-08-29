@@ -1,0 +1,42 @@
+{
+  "name": "weather",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "zip_code": {
+      "type": "number",
+      "required": false
+    },
+    "current_temperature": {
+      "type": "number",
+      "required": false
+    },
+    "current_humidity": {
+      "type": "number",
+      "required": false
+    },
+    "tonight_temperature_low": {
+      "type": "number",
+      "required": false
+    },
+    "tonight_temperature_high": {
+      "type": "number",
+      "required": false
+    },
+    "tonight_humidity_low": {
+      "type": "number",
+      "required": false
+    },
+    "tonight_humidity_high": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
